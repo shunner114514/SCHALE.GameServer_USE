@@ -64,13 +64,14 @@
   * 在出现Yostar徽标时键入并回车：  
     `frida -U "ブルアカ" -l ba.js --realm=emulated`（后台挂起）
   * 出现`Attatching...`并且SCHALE.GameServer.exe出现Ping时基本成功
-  
+   
   **###进入私服前需要先连接官服下载资源并通过新手教程###**  
   
-  **###获取Excel.zip相关文件或有任何问题请到Discord社群###**
+  **###首次登录设置完名称和发音档时会抛出错误，此时重启SSMS和`SCHALE.GameServer.exe`并再次执行启动游戏阶段的操作即可###**
   
 ## 注意事项
   * 此项目还处于初期阶段，存在大量不可使用选项，出现问题请尝试重新登录或重启
+  * 若出现`SCHALE.GameServer.exe`没有Ping的情况，请检查ba.js中的IPV4地址与你当前地址是否一致
   * 若已成功安装SQL Server Express，请不要轻易自行尝试卸载或删除它，否则可能无法再次成功安装
   * 如果很不幸，你的电脑上已经多次无法成功安装SQL Server Express且不愿意重装系统，以下提供一个平替方案：  
     *需要较高性能的电脑和足够的硬盘存储*
