@@ -38,9 +38,9 @@
   * 若在`...\SCHALE.GameServer-master>`下，请输入`cd SCHALE.GameServer`转到以下路径  
   * 在`\SCHALE.GameServer-master\SCHALE.GameServer`路径下输入：  
     `dotnet publish -a x64 --use-current-runtime --self-contained false -p:InvariantGlobalization=false`  
-  * 找到并在`\SCHALE.GameServer-master\SCHALE.GameServer\bin\Release\net8.0\win-x64`路径下创建Resources文件夹，再在其下创建excel文件夹，将Excel.zip解压至此文件夹中  
+  * ~~找到并在`\SCHALE.GameServer-master\SCHALE.GameServer\bin\Release\net8.0\win-x64`路径下创建Resources文件夹，再在其下创建excel文件夹，将Excel.zip解压至此文件夹~~（最新版该步骤已集成于`SCHALE.GameServer.exe`）
   * 打开SSMS，默认连接（注意勾选信任服务器证书）  
-  * 运行`\SCHALE.GameServer-master\SCHALE.GameServer\bin\Release\net8.0\win-x64\SCHALE.GameServer.exe` （后台挂起） 
+  * 运行`\SCHALE.GameServer-master\SCHALE.GameServer\bin\Release\net8.0\win-x64\SCHALE.GameServer.exe` （后台挂起）（首次运行请允许通过防火墙） 
   * 找到ba.js文件使用记事本打开，修改第5行`REPLACE THIS WITH YOUR LOCAL IP`为你此时的IPV4地址（网络和Internet设置中可查看）  
 ## 启动游戏阶段
   *建议把ba.js放入\leidian\LDPlayer9路径下*
