@@ -33,7 +33,7 @@
   * 等待传输完成
 ## 资源配置阶段
   * 打开并解压所下载的SCHALE.GameServer-master.zip  
-  * 使用Microsoft Visual Studio 2022打开上面包中的SCHALE.GameServer.sln  
+  * 使用Microsoft Visual Studio 2022打开包中的SCHALE.GameServer.sln  
   * 选择顶部菜单栏“视图”下拉“终端”  
   * 若在`...\SCHALE.GameServer-master>`下，请输入`cd SCHALE.GameServer`转到以下路径  
   * 在`\SCHALE.GameServer-master\SCHALE.GameServer`路径下输入：  
@@ -54,8 +54,8 @@
         adb shell
         su    //超级管理员
         cd /data/local/tmp    //转到此路径下
-        chmod 755 frida-server-16.2.5-android-x86_64
-        ./frida-server-16.2.5-android-x86_64    //启动frida
+        chmod 755 frida-server-16.x.x-android-x86_64
+        ./frida-server-16.x.x-android-x86_64    //启动frida
         ```
     **！！！注意此步骤完成后不要关闭该cmd！！！**  
   
