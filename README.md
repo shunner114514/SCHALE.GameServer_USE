@@ -70,13 +70,13 @@
   **###首次登录设置完名称和发音档时会抛出错误，此时重启`SCHALE.GameServer.exe`、关闭游戏，从“启动游戏ブルアカ”步骤再次开始即可正常进入###**
   
 ## 注意事项
-  * 此项目还处于初期阶段，存在大量不可使用选项，出现问题请尝试重新登录或重启
+  * 此项目还处于初期阶段，许多功能尚未开发完成，出现问题请尝试重新登录或重启
   * 若出现`SCHALE.GameServer.exe`没有Ping的情况，请检查ba.js中的IPV4地址与你当前地址是否一致
   * 若已成功安装SQL Server Express，请不要轻易自行尝试卸载或删除它，否则可能无法再次成功安装
   * 如果很不幸，你的电脑上已经多次无法成功安装SQL Server Express且不愿意重装系统，以下提供一个平替方案：  
     *需要较高性能的电脑和足够的硬盘存储*
     * 安装[VMware Workstation Pro](https://blog.csdn.net/weixin_74195551/article/details/127288338)
-    * 网络搜索许可证密钥填入
+    * 网络搜索许可证密钥填入，最新版本（17.5.2）可选择个人使用授权
     * 前往Windows官网或其他正规渠道获取Windows 10/11镜像
     * 创建并安装Windows虚拟机  
       参阅[VMware中安装win10教程_vmware安装win10-CSDN博客](https://blog.csdn.net/lvlheike/article/details/120398259)
