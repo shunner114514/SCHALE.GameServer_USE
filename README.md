@@ -49,13 +49,13 @@
   * 打开雷电模拟器
   * 启动frida
       * 在（你安装时的盘）:\leidian\LDPlayer9路径下的导航栏中输入cmd并回车
-      * 在所打开的cmd中键入:
+      * 在所打开的cmd中依次键入:
         ```
         adb shell
-        su    //超级管理员
-        cd /data/local/tmp    //转到此路径下
+        su
+        cd /data/local/tmp
         chmod 755 frida-server-16.x.x-android-x86_64
-        ./frida-server-16.x.x-android-x86_64    //启动frida
+        ./frida-server-16.x.x-android-x86_64
         ```
     **！！！注意此步骤完成后不要关闭该cmd！！！**  
   
