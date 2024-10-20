@@ -1,5 +1,5 @@
 # SCHALE.GameServer_USE
-**本文基于[https://github.com/rafi1212122/SCHALE.GameServer](https://github.com/rafi1212122/SCHALE.GameServer)及个人操作经验编写，资源配置文件请到以上链接获取，若有任何疑问请到Discord社群询问**
+**~~本文基于[https://github.com/rafi1212122/SCHALE.GameServer](https://github.com/rafi1212122/SCHALE.GameServer)及个人操作经验编写，资源配置文件请到以上链接获取，若有任何疑问请到Discord社群询问~~（源项目已失效且删库，请勿跑空）**
 ## 安装准备阶段
 ### 1.安装[SQL Server Express 2022](https://go.microsoft.com/fwlink/p/?linkid=2216019&clcid=0x804&culture=zh-cn&country=cn)
   * 打开你下载的安装程序
