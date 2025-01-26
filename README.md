@@ -1,5 +1,5 @@
 # SCHALE.GameServer_USE
-**本文基于[https://github.com/rafi1212122/SCHALE.GameServer](https://github.com/rafi1212122/SCHALE.GameServer)及个人操作经验编写，资源配置文件请到以上链接获取，若有任何疑问请到Discord社群询问**
+**本文基于**~~[https://git.lewd.wtf/Raphael/SCHALE.GameServer](https://git.lewd.wtf/Raphael/SCHALE.GameServer)~~**及个人操作经验编写，资源配置文件请到以上链接获取，若有任何疑问请到Discord社群询问（以上项目现已停止维护，现请转到[https://git.fufufu.moe/KaniPS/Phrenapates](https://git.fufufu.moe/KaniPS/Phrenapates)）**
 ## 安装准备（若有问题，请参看注意事项）
 ### 1.安装[SQL Server Express 2022](https://www.microsoft.com/zh-cn/download/details.aspx?id=104781)
   * 打开下载的安装程序
@@ -24,7 +24,7 @@
   * 等待下载安装完成
   * 再输入`pip install frida-tools`回车
   * 等待下载安装完成（时间可能较长）
-### 7.（mtimproxy方案）[模拟器]安装[WireGuard](https://www.wireguard.com/install/)
+### 7.[推荐]（mtimproxy方案）[模拟器]安装[WireGuard](https://www.wireguard.com/install/)
   * 点击`Download APK File`下载安装包
   * 在模拟器中安装
 
@@ -122,7 +122,7 @@
   
 ## 注意事项
   * 此项目仍处于开发阶段，出现问题请尝试重新登录或重启服务器
-  * 若`SCHALE.GameServer.exe`没有出现Ping，请检查`ba.js`中的IPV4地址与你当前地址是否一致或检查`appsettings.json`
+  * 若`SCHALE.GameServer.exe`没有出现Ping，请检查`ba.js`中的IPV4地址与你当前地址或检查`appsettings.json`中主机名和实例名是否与你电脑上的一致
   * 若已成功安装SQL Server Express，请不要轻易自行尝试卸载或删除它，否则可能无法再次成功安装
   * **[解决方案]** 若尝试重新安装SQL失败，请安装[Total Uninstall](https://www.martau.com/zh-CN/uninstaller-download.php)删除全部关于SQL Server的文件（注意有关文件的时间一般是一样的）  
     具体请参照[SQL Server 2019重新安装失败的处理方法](https://blog.csdn.net/dian_dian_tou/article/details/106116481)
